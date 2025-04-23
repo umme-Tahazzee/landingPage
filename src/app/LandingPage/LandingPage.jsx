@@ -29,6 +29,14 @@ export default function LandingPage() {
           <p className="text-gray-600">Fully responsive design that looks great on all devices.</p>
         </div>
       </section>
+        {/* Footer */}
+        <footer className="text-center py-6 bg-gray-100 text-sm text-gray-500">
+        <p>Contact us: info@quickstart.com | Follow us on
+          <a href="#" className="text-blue-500 ml-1">Twitter</a>,
+          <a href="#" className="text-blue-500 ml-1">Instagram</a>
+        </p>
+        <p className="mt-2">&copy; 2025 QuickStart Inc.</p>
+      </footer>
      
     </div>
   );
